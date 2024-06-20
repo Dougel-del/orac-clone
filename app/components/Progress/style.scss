@@ -1,0 +1,19 @@
+.progress {
+  height: 20px;
+  width: 90%;
+  background-color: #eee8fa12;
+  border-radius: 50px;
+  .filler {
+    height: 100%;
+    background-color: #ccbbf2;
+    border-radius: inherit;
+    text-align: right;
+  }
+  .text {
+    color: white;
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+  }
+}

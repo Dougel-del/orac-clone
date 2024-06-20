@@ -1,0 +1,29 @@
+.wrap_collapse {
+  background-color: #663aa0;
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 16px;
+  margin-bottom: 4rem;
+  @media screen and (max-width: 1024px) {
+    margin-bottom: 1rem;
+    width: 90%;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+  .title-btn {
+    padding: 16px;
+    font-size: 26px;
+    color: white;
+    width: 100%;
+    text-align: start;
+    @media screen and (max-width: 1024px) {
+      font-size: 20px;
+    }
+  }
+  .desc {
+    border-top: 1px solid white;
+    padding: 15px;
+    font-size: 16px;
+  }
+}
