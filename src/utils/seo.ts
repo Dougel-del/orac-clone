@@ -23,7 +23,7 @@ export function generateMetadata({
   return {
     title: title ?? defaultSEO.title,
     description: description ?? defaultSEO.description,
-    metadataBase: new URL("https://oraclememe.net"),
+    // metadataBase: new URL("https://oraclememe.net"),
     keywords: keywords ?? defaultSEO.keywords,
     twitter: {
       title: title ?? defaultSEO.title,

@@ -12,7 +12,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <meta name="twitter:card" content="summary" />
+      {/* <meta name="twitter:card" content="summary" />
       <meta
         name="twitter:title"
         content="Oracle Meme – Revolutionize Meme Culture with Blockchain Technology"
@@ -26,7 +26,7 @@ export default function RootLayout({
         name="twitter:image"
         content="https://oraclememe.net/thumbnail.png"
       />
-      <meta name="twitter:image:alt" content="thumbnail" />
+      <meta name="twitter:image:alt" content="thumbnail" /> */}
 
       <body>
         <AppProvider>
