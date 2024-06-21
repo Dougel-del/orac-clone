@@ -51,8 +51,10 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <Web3Wrapper>{children}</Web3Wrapper>
-      <ToastContainer position="bottom-right" />
+      <Web3Wrapper>
+        {children}
+        <ToastContainer position="bottom-right" />
+      </Web3Wrapper>
     </QueryClientProvider>
   );
 }
