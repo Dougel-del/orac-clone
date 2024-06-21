@@ -11,6 +11,7 @@ import { useEffect, useState } from "react";
 import { WagmiProvider } from "wagmi";
 import { GoogleAnalytics } from "nextjs-google-analytics";
 import { appConfig } from "./configs";
+import { ToastContainer } from "react-toastify";
 
 const { wallets } = getDefaultWallets();
 
@@ -51,6 +52,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   return (
     <QueryClientProvider client={queryClient}>
       <Web3Wrapper>{children}</Web3Wrapper>
+      <ToastContainer position="bottom-right" />
     </QueryClientProvider>
   );
 }

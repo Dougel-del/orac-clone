@@ -29,10 +29,7 @@ export default function RootLayout({
       <meta name="twitter:image:alt" content="thumbnail" /> */}
 
       <body>
-        <AppProvider>
-          {children}
-          <ToastContainer position="bottom-right" />
-        </AppProvider>
+        <AppProvider>{children}</AppProvider>
       </body>
     </html>
   );
