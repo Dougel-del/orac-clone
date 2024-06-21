@@ -1,5 +1,4 @@
 import { generateMetadata } from "@/src/utils/seo";
-import { ToastContainer } from "react-toastify";
 import { AppProvider } from "./AppProvider";
 import "./globals.css";
 

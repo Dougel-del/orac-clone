@@ -11,7 +11,7 @@ export const defaultSEO: TSEO = {
   title: "Oracle Meme – Revolutionize Meme Culture with Blockchain Technology",
   description:
     "Join Oracle Meme in redefining meme culture with our blockchain-based platform. Participate in our presale to get early access to OMEME tokens and engage with a vibrant community of creators and investors.",
-  thumbnail: "/thumbnail.png",
+  thumbnail: "/meta-image.png",
 };
 
 export function generateMetadata({
